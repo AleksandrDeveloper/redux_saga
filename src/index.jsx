@@ -7,9 +7,7 @@ import ProviderFunction from './store';
 
 
 const app =(
-  <ProviderFunction>
       <App />
-  </ProviderFunction>
 )
 
 
