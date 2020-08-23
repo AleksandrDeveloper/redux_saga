@@ -15,7 +15,9 @@ export default class PostForm extends Component {
         id:Number(Date.now())
     }
 
-    console.log(newPost);
+    this.setState({
+        title:''
+    })
   };
 
   handlerInputChange=({target:{value,name}})=>{
